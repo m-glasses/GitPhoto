@@ -1,0 +1,700 @@
+
+PS C:\Users\m-m-farzanegan84> Select-String -Path $log `
+>>     -Pattern '<type>Error</type>' `
+>>     -Context 3,12
+
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:75:          <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:76:            <record>136</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:77:            <time>2004/02/26
+00:42:59.706</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:78:            <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:79:            <source>Microsoft Visual
+Studio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:80:            <description>Loading UI
+library</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:81:
+<guid>{00000000-0000-0000-0000-000000000000}</guid>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:82:            <hr>800a006f</hr>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:83:            <path></path>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:84:        </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:85:
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:86:        -->
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:87:                        <xsl:choose>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:88:
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:89:                                <xsl:when test="type='Information'">
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:90:                                        <tr id="info" class="info">
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:344:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:345:    <record>28</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:346:    <time>2026/08/20 06:21:42.374</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:347:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:348:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:349:    <description>PkgDefManagement only
+partially initialized</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:350:    <hr>0x8000ffff - E_UNEXPECTED</hr>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:351:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:352:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:353:    <record>29</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:354:    <time>2026/08/20 06:21:48.131</time>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:355:    <type>Information</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:356:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:357:    <description>Importing pkgdef
+file</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:358:    <path>c:\program files\microsoft sql
+server management studio 22\release\common7\ide\ssms.pkgdef</path>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:359:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7818:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7819:    <record>964</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7820:    <time>2026/08/20 06:21:56.155</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7821:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7822:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7823:    <description>Loading UI
+library</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7824:
+<guid>{3F3D9528-BAC4-420E-8147-29896300C5C0}</guid>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7825:    <hr>0x800a006f</hr>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7826:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7827:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7828:    <record>965</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7829:    <time>2026/08/20 06:21:56.155</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7830:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7831:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7832:    <description>Error loading UI library
+for package (null). HrLoadNativeUILibrary failed with 0x800a006f.</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7833:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7834:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7835:    <record>966</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7836:    <time>2026/08/20 06:21:56.217</time>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7837:    <type>Information</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7838:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7839:    <description>Loading UI
+library</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7840:
+<guid>{164B10B9-B200-11D0-8C61-00A0C91E29D5}</guid>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7841:    <path>C:\Program Files\Microsoft SQL
+Server Management Studio 22\Release\VB\Bin\*\msvbprjui.dll</path>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7842:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7843:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7844:    <record>967</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7845:    <time>2026/08/20 06:21:56.217</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7846:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7847:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7848:    <description>Failed to find CTMENU
+resource &apos;#4022&apos; in loaded UI library.</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7849:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7850:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7851:    <record>968</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7852:    <time>2026/08/20 06:21:56.239</time>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7853:    <type>Information</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7854:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7855:    <description>End package load
+[ExtensionManagementPackage]</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7856:
+<guid>{5DD582D8-4665-49E4-B74D-D376FB4CE60B}</guid>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7857:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7858:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7895:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7896:    <record>974</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7897:    <time>2026/08/20 06:21:57.280</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7898:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7899:    <source>Unified Settings</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7900:    <description>[debugging] Missing
+category registration: debugging: referenced by debugging.netMonoDebugger.enableNewEngineForWasm from Package provider
+Microsoft.WebTools.Shared.VS.WebCommonPackage</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7901:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7902:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7903:    <record>975</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7904:    <time>2026/08/20 06:21:57.280</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7905:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7906:    <source>Unified Settings</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7907:    <description>[debugging.netMonoDebugger]
+Missing category registration: debugging.netMonoDebugger: referenced by
+debugging.netMonoDebugger.enableNewEngineForWasm from Package provider
+Microsoft.WebTools.Shared.VS.WebCommonPackage</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7908:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7909:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7910:    <record>976</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7911:    <time>2026/08/20 06:21:57.280</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7912:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7913:    <source>Unified Settings</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7914:    <description>[languages.csharp] Missing
+category registration: languages.csharp: referenced by languages.csharp.intellisense.codeLensOnFields from Package
+provider Microsoft.VisualStudio.CodeSense</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7915:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7916:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7917:    <record>977</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7918:    <time>2026/08/20 06:21:57.280</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7919:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7920:    <source>Unified Settings</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7921:
+<description>[languages.csharp.intellisense] Missing category registration: languages.csharp.intellisense: referenced
+by languages.csharp.intellisense.codeLensOnFields from Package provider Microsoft.VisualStudio.CodeSense</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7922:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7923:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7924:    <record>978</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7925:    <time>2026/08/20 06:21:57.488</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7926:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7927:    <source>Extension Manager</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7928:    <description>System.AggregateException:
+Retry operation failed with errors:&#x000A; ---&gt; Nerdbank.MessagePack.MessagePackSerializationException: An error
+occurred during deserialization. ---&gt; Nerdbank.MessagePack.MessagePackSerializationException: Failed to deserialize
+&apos;Extensions&apos; property on Microsoft.VisualStudio.Extension.Management.ExtensionCacheFormat. ---&gt;
+Nerdbank.MessagePack.MessagePackSerializationException: Failed to deserialize a
+&apos;Microsoft.VisualStudio.ExtensionEngine.Impl.Settings.MetadataStore.StorageModel.ExtensionFromStorageImpl&apos;
+at index 0. ---&gt; Nerdbank.MessagePack.MessagePackSerializationException: Failed to deserialize &apos;Header&apos;
+property on Microsoft.VisualStudio.ExtensionEngine.Impl.Settings.MetadataStore.StorageModel.ExtensionFromStorageImpl.
+---&gt; Nerdbank.MessagePack.MessagePackSerializationException: Failed to deserialize &apos;Locale&apos; property on
+Microsoft.VisualStudio.ExtensionEngine.Impl.Settings.MetadataStore.StorageModel.ExtensionHeaderFromStorage. ---&gt;
+Nerdbank.MessagePack.MessagePackSerializationException: Unexpected msgpack code 205 (uint 16)
+encountered.&#x000D;&#x000A;   at Nerdbank.MessagePack.MessagePackReader.ThrowInvalidCode(Byte code)&#x000D;&#x000A;
+at Nerdbank.MessagePack.MessagePackReader.ReadString()&#x000D;&#x000A;   at
+Nerdbank.MessagePack.Converters.SystemGlobalizationCultureInfoConverter.Read(MessagePackReader&amp; reader,
+SerializationContext context)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.StandardVisitor.&lt;&gt;c__DisplayClass14_3`2.&lt;VisitProperty&gt;b__6(TDeclaringType&amp;
+container, MessagePackReader&amp; reader, SerializationContext context)&#x000D;&#x000A;   --- End of inner exception
+stack trace ---&#x000D;&#x000A;   at
+Nerdbank.MessagePack.StandardVisitor.&lt;&gt;c__DisplayClass14_3`2.&lt;VisitProperty&gt;b__6(TDeclaringType&amp;
+container, MessagePackReader&amp; reader, SerializationContext context)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.Converters.ObjectArrayConverter`1.Read(MessagePackReader&amp; reader, SerializationContext
+context)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.StandardVisitor.&lt;&gt;c__DisplayClass14_3`2.&lt;VisitProperty&gt;b__6(TDeclaringType&amp;
+container, MessagePackReader&amp; reader, SerializationContext context)&#x000D;&#x000A;   --- End of inner exception
+stack trace ---&#x000D;&#x000A;   at
+Nerdbank.MessagePack.StandardVisitor.&lt;&gt;c__DisplayClass14_3`2.&lt;VisitProperty&gt;b__6(TDeclaringType&amp;
+container, MessagePackReader&amp; reader, SerializationContext context)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.Converters.ObjectArrayConverter`1.Read(MessagePackReader&amp; reader, SerializationContext
+context)&#x000D;&#x000A;   at Nerdbank.MessagePack.Converters.SpanEnumerableConverter`2.Read(MessagePackReader&amp;
+reader, SerializationContext context)&#x000D;&#x000A;   --- End of inner exception stack trace ---&#x000D;&#x000A;
+at Nerdbank.MessagePack.Converters.SpanEnumerableConverter`2.Read(MessagePackReader&amp; reader, SerializationContext
+context)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.StandardVisitor.&lt;&gt;c__DisplayClass14_3`2.&lt;VisitProperty&gt;b__6(TDeclaringType&amp;
+container, MessagePackReader&amp; reader, SerializationContext context)&#x000D;&#x000A;   --- End of inner exception
+stack trace ---&#x000D;&#x000A;   at
+Nerdbank.MessagePack.StandardVisitor.&lt;&gt;c__DisplayClass14_3`2.&lt;VisitProperty&gt;b__6(TDeclaringType&amp;
+container, MessagePackReader&amp; reader, SerializationContext context)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.Converters.ObjectArrayConverter`1.Read(MessagePackReader&amp; reader, SerializationContext
+context)&#x000D;&#x000A;   at Nerdbank.MessagePack.MessagePackSerializer.Deserialize[T](MessagePackReader&amp; reader,
+ITypeShape`1 shape, CancellationToken cancellationToken)&#x000D;&#x000A;   --- End of inner exception stack trace
+---&#x000D;&#x000A;   at Nerdbank.MessagePack.MessagePackSerializer.Deserialize[T](MessagePackReader&amp; reader,
+ITypeShape`1 shape, CancellationToken cancellationToken)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.MessagePackSerializer.Deserialize[T](ReadOnlySequence`1&amp; buffer, ITypeShape`1 shape,
+CancellationToken cancellationToken)&#x000D;&#x000A;   at Microsoft.VisualStudio.Extension.Management.MessagePackCacheU
+tilities`1.Microsoft.VisualStudio.Extension.Management.IStreamDeserializer&lt;T&gt;.ReadDataFromStream(Stream
+stream)&#x000D;&#x000A;   at Microsoft.VisualStudio.Extension.Management.MessagePackCacheUtilities`1.&lt;&gt;c__Display
+Class14_0.&lt;ReadCacheAsync&gt;b__0()&#x000D;&#x000A;   at Microsoft.VisualStudio.ExtensionEngineContract.Impl.LinearR
+etryPolicy.&lt;ExecuteRetryOperationAsync&gt;d__6`1.MoveNext()&#x000D;&#x000A;   --- End of inner exception stack
+trace ---&#x000D;&#x000A;   at Microsoft.VisualStudio.ExtensionEngineContract.Impl.LinearRetryPolicy.&lt;ExecuteRetryOp
+erationAsync&gt;d__6`1.MoveNext()&#x000D;&#x000A;--- End of stack trace from previous location where exception was
+thrown ---&#x000D;&#x000A;   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()&#x000D;&#x000A;   at
+System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#x000D;&#x000A;   at Mic
+rosoft.VisualStudio.Extension.Management.MessagePackCacheUtilities`1.&lt;ReadCacheAsync&gt;d__14.MoveNext()&#x000D;&#x0
+00A;--- End of stack trace from previous location where exception was thrown ---&#x000D;&#x000A;   at
+System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()&#x000D;&#x000A;   at
+System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#x000D;&#x000A;   at Mic
+rosoft.VisualStudio.Extension.Management.MessagePackCacheWriter.&lt;ReadExtensionDataInternalAsync&gt;d__16.MoveNext()&
+#x000D;&#x000A;---&gt; (Inner Exception #0) Nerdbank.MessagePack.MessagePackSerializationException: An error occurred
+during deserialization. ---&gt; Nerdbank.MessagePack.MessagePackSerializationException: Failed to deserialize
+&apos;Extensions&apos; property on Microsoft.VisualStudio.Extension.Management.ExtensionCacheFormat. ---&gt;
+Nerdbank.MessagePack.MessagePackSerializationException: Failed to deserialize a
+&apos;Microsoft.VisualStudio.ExtensionEngine.Impl.Settings.MetadataStore.StorageModel.ExtensionFromStorageImpl&apos;
+at index 0. ---&gt; Nerdbank.MessagePack.MessagePackSerializationException: Failed to deserialize &apos;Header&apos;
+property on Microsoft.VisualStudio.ExtensionEngine.Impl.Settings.MetadataStore.StorageModel.ExtensionFromStorageImpl.
+---&gt; Nerdbank.MessagePack.MessagePackSerializationException: Failed to deserialize &apos;Locale&apos; property on
+Microsoft.VisualStudio.ExtensionEngine.Impl.Settings.MetadataStore.StorageModel.ExtensionHeaderFromStorage. ---&gt;
+Nerdbank.MessagePack.MessagePackSerializationException: Unexpected msgpack code 205 (uint 16)
+encountered.&#x000D;&#x000A;   at Nerdbank.MessagePack.MessagePackReader.ThrowInvalidCode(Byte code)&#x000D;&#x000A;
+at Nerdbank.MessagePack.MessagePackReader.ReadString()&#x000D;&#x000A;   at
+Nerdbank.MessagePack.Converters.SystemGlobalizationCultureInfoConverter.Read(MessagePackReader&amp; reader,
+SerializationContext context)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.StandardVisitor.&lt;&gt;c__DisplayClass14_3`2.&lt;VisitProperty&gt;b__6(TDeclaringType&amp;
+container, MessagePackReader&amp; reader, SerializationContext context)&#x000D;&#x000A;   --- End of inner exception
+stack trace ---&#x000D;&#x000A;   at
+Nerdbank.MessagePack.StandardVisitor.&lt;&gt;c__DisplayClass14_3`2.&lt;VisitProperty&gt;b__6(TDeclaringType&amp;
+container, MessagePackReader&amp; reader, SerializationContext context)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.Converters.ObjectArrayConverter`1.Read(MessagePackReader&amp; reader, SerializationContext
+context)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.StandardVisitor.&lt;&gt;c__DisplayClass14_3`2.&lt;VisitProperty&gt;b__6(TDeclaringType&amp;
+container, MessagePackReader&amp; reader, SerializationContext context)&#x000D;&#x000A;   --- End of inner exception
+stack trace ---&#x000D;&#x000A;   at
+Nerdbank.MessagePack.StandardVisitor.&lt;&gt;c__DisplayClass14_3`2.&lt;VisitProperty&gt;b__6(TDeclaringType&amp;
+container, MessagePackReader&amp; reader, SerializationContext context)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.Converters.ObjectArrayConverter`1.Read(MessagePackReader&amp; reader, SerializationContext
+context)&#x000D;&#x000A;   at Nerdbank.MessagePack.Converters.SpanEnumerableConverter`2.Read(MessagePackReader&amp;
+reader, SerializationContext context)&#x000D;&#x000A;   --- End of inner exception stack trace ---&#x000D;&#x000A;
+at Nerdbank.MessagePack.Converters.SpanEnumerableConverter`2.Read(MessagePackReader&amp; reader, SerializationContext
+context)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.StandardVisitor.&lt;&gt;c__DisplayClass14_3`2.&lt;VisitProperty&gt;b__6(TDeclaringType&amp;
+container, MessagePackReader&amp; reader, SerializationContext context)&#x000D;&#x000A;   --- End of inner exception
+stack trace ---&#x000D;&#x000A;   at
+Nerdbank.MessagePack.StandardVisitor.&lt;&gt;c__DisplayClass14_3`2.&lt;VisitProperty&gt;b__6(TDeclaringType&amp;
+container, MessagePackReader&amp; reader, SerializationContext context)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.Converters.ObjectArrayConverter`1.Read(MessagePackReader&amp; reader, SerializationContext
+context)&#x000D;&#x000A;   at Nerdbank.MessagePack.MessagePackSerializer.Deserialize[T](MessagePackReader&amp; reader,
+ITypeShape`1 shape, CancellationToken cancellationToken)&#x000D;&#x000A;   --- End of inner exception stack trace
+---&#x000D;&#x000A;   at Nerdbank.MessagePack.MessagePackSerializer.Deserialize[T](MessagePackReader&amp; reader,
+ITypeShape`1 shape, CancellationToken cancellationToken)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.MessagePackSerializer.Deserialize[T](ReadOnlySequence`1&amp; buffer, ITypeShape`1 shape,
+CancellationToken cancellationToken)&#x000D;&#x000A;   at Microsoft.VisualStudio.Extension.Management.MessagePackCacheU
+tilities`1.Microsoft.VisualStudio.Extension.Management.IStreamDeserializer&lt;T&gt;.ReadDataFromStream(Stream
+stream)&#x000D;&#x000A;   at Microsoft.VisualStudio.Extension.Management.MessagePackCacheUtilities`1.&lt;&gt;c__Display
+Class14_0.&lt;ReadCacheAsync&gt;b__0()&#x000D;&#x000A;   at Microsoft.VisualStudio.ExtensionEngineContract.Impl.LinearR
+etryPolicy.&lt;ExecuteRetryOperationAsync&gt;d__6`1.MoveNext()&lt;---&#x000D;&#x000A; Failed to read cache file at &apo
+s;C:\Users\m-m-farzanegan84\AppData\Local\Microsoft\SSMS\22.0_999a5240\Extensions\ExtensionMetadata2.0.mpack&apos;</des
+cription>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7929:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7930:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7931:    <record>979</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7932:    <time>2026/08/20 06:21:57.749</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7933:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7934:    <source>Extension Manager</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7935:    <description>System.AggregateException:
+Retry operation failed with errors:&#x000A; ---&gt; Nerdbank.MessagePack.MessagePackSerializationException: An error
+occurred during deserialization. ---&gt; Nerdbank.MessagePack.MessagePackSerializationException: Failed to deserialize
+&apos;Extensions&apos; property on Microsoft.VisualStudio.Extension.Management.ExtensionCacheFormat. ---&gt;
+Nerdbank.MessagePack.MessagePackSerializationException: Failed to deserialize a
+&apos;Microsoft.VisualStudio.ExtensionEngine.Impl.Settings.MetadataStore.StorageModel.ExtensionFromStorageImpl&apos;
+at index 0. ---&gt; Nerdbank.MessagePack.MessagePackSerializationException: Failed to deserialize &apos;Header&apos;
+property on Microsoft.VisualStudio.ExtensionEngine.Impl.Settings.MetadataStore.StorageModel.ExtensionFromStorageImpl.
+---&gt; Nerdbank.MessagePack.MessagePackSerializationException: Failed to deserialize &apos;Locale&apos; property on
+Microsoft.VisualStudio.ExtensionEngine.Impl.Settings.MetadataStore.StorageModel.ExtensionHeaderFromStorage. ---&gt;
+Nerdbank.MessagePack.MessagePackSerializationException: Unexpected msgpack code 205 (uint 16)
+encountered.&#x000D;&#x000A;   at Nerdbank.MessagePack.MessagePackReader.ThrowInvalidCode(Byte code)&#x000D;&#x000A;
+at Nerdbank.MessagePack.MessagePackReader.ReadString()&#x000D;&#x000A;   at
+Nerdbank.MessagePack.Converters.SystemGlobalizationCultureInfoConverter.Read(MessagePackReader&amp; reader,
+SerializationContext context)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.StandardVisitor.&lt;&gt;c__DisplayClass14_3`2.&lt;VisitProperty&gt;b__6(TDeclaringType&amp;
+container, MessagePackReader&amp; reader, SerializationContext context)&#x000D;&#x000A;   --- End of inner exception
+stack trace ---&#x000D;&#x000A;   at
+Nerdbank.MessagePack.StandardVisitor.&lt;&gt;c__DisplayClass14_3`2.&lt;VisitProperty&gt;b__6(TDeclaringType&amp;
+container, MessagePackReader&amp; reader, SerializationContext context)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.Converters.ObjectArrayConverter`1.Read(MessagePackReader&amp; reader, SerializationContext
+context)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.StandardVisitor.&lt;&gt;c__DisplayClass14_3`2.&lt;VisitProperty&gt;b__6(TDeclaringType&amp;
+container, MessagePackReader&amp; reader, SerializationContext context)&#x000D;&#x000A;   --- End of inner exception
+stack trace ---&#x000D;&#x000A;   at
+Nerdbank.MessagePack.StandardVisitor.&lt;&gt;c__DisplayClass14_3`2.&lt;VisitProperty&gt;b__6(TDeclaringType&amp;
+container, MessagePackReader&amp; reader, SerializationContext context)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.Converters.ObjectArrayConverter`1.Read(MessagePackReader&amp; reader, SerializationContext
+context)&#x000D;&#x000A;   at Nerdbank.MessagePack.Converters.SpanEnumerableConverter`2.Read(MessagePackReader&amp;
+reader, SerializationContext context)&#x000D;&#x000A;   --- End of inner exception stack trace ---&#x000D;&#x000A;
+at Nerdbank.MessagePack.Converters.SpanEnumerableConverter`2.Read(MessagePackReader&amp; reader, SerializationContext
+context)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.StandardVisitor.&lt;&gt;c__DisplayClass14_3`2.&lt;VisitProperty&gt;b__6(TDeclaringType&amp;
+container, MessagePackReader&amp; reader, SerializationContext context)&#x000D;&#x000A;   --- End of inner exception
+stack trace ---&#x000D;&#x000A;   at
+Nerdbank.MessagePack.StandardVisitor.&lt;&gt;c__DisplayClass14_3`2.&lt;VisitProperty&gt;b__6(TDeclaringType&amp;
+container, MessagePackReader&amp; reader, SerializationContext context)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.Converters.ObjectArrayConverter`1.Read(MessagePackReader&amp; reader, SerializationContext
+context)&#x000D;&#x000A;   at Nerdbank.MessagePack.MessagePackSerializer.Deserialize[T](MessagePackReader&amp; reader,
+ITypeShape`1 shape, CancellationToken cancellationToken)&#x000D;&#x000A;   --- End of inner exception stack trace
+---&#x000D;&#x000A;   at Nerdbank.MessagePack.MessagePackSerializer.Deserialize[T](MessagePackReader&amp; reader,
+ITypeShape`1 shape, CancellationToken cancellationToken)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.MessagePackSerializer.Deserialize[T](ReadOnlySequence`1&amp; buffer, ITypeShape`1 shape,
+CancellationToken cancellationToken)&#x000D;&#x000A;   at Microsoft.VisualStudio.Extension.Management.MessagePackCacheU
+tilities`1.Microsoft.VisualStudio.Extension.Management.IStreamDeserializer&lt;T&gt;.ReadDataFromStream(Stream
+stream)&#x000D;&#x000A;   at Microsoft.VisualStudio.Extension.Management.MessagePackCacheUtilities`1.&lt;&gt;c__Display
+Class14_0.&lt;ReadCacheAsync&gt;b__0()&#x000D;&#x000A;   at Microsoft.VisualStudio.ExtensionEngineContract.Impl.LinearR
+etryPolicy.&lt;ExecuteRetryOperationAsync&gt;d__6`1.MoveNext()&#x000D;&#x000A;   --- End of inner exception stack
+trace ---&#x000D;&#x000A;   at Microsoft.VisualStudio.ExtensionEngineContract.Impl.LinearRetryPolicy.&lt;ExecuteRetryOp
+erationAsync&gt;d__6`1.MoveNext()&#x000D;&#x000A;--- End of stack trace from previous location where exception was
+thrown ---&#x000D;&#x000A;   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()&#x000D;&#x000A;   at
+System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#x000D;&#x000A;   at Mic
+rosoft.VisualStudio.Extension.Management.MessagePackCacheUtilities`1.&lt;ReadCacheAsync&gt;d__14.MoveNext()&#x000D;&#x0
+00A;--- End of stack trace from previous location where exception was thrown ---&#x000D;&#x000A;   at
+System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()&#x000D;&#x000A;   at
+System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#x000D;&#x000A;   at Mic
+rosoft.VisualStudio.Extension.Management.MessagePackCacheWriter.&lt;ReadExtensionDataInternalAsync&gt;d__16.MoveNext()&
+#x000D;&#x000A;--- End of stack trace from previous location where exception was thrown ---&#x000D;&#x000A;   at
+System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()&#x000D;&#x000A;   at Microsoft.VisualStudio.Extension.Ma
+nagement.MessagePackCacheWriter.&lt;ReadExtensionDataInternalAsync&gt;d__16.MoveNext()&#x000D;&#x000A;--- End of stack
+trace from previous location where exception was thrown ---&#x000D;&#x000A;   at
+System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()&#x000D;&#x000A;   at
+System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#x000D;&#x000A;   at Mic
+rosoft.VisualStudio.Extension.Management.MessagePackCacheWriter.&lt;&gt;c__DisplayClass14_0.&lt;&lt;ReadExtensionDataAs
+ync&gt;b__0&gt;d.MoveNext()&#x000D;&#x000A;--- End of stack trace from previous location where exception was thrown
+---&#x000D;&#x000A;   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()&#x000D;&#x000A;   at
+System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#x000D;&#x000A;   at
+System.Threading.Tasks.ValueTask`1.get_Result()&#x000D;&#x000A;   at Microsoft.VisualStudio.Threading.ReentrantSemaphor
+e.StackSemaphore.&lt;&gt;c__DisplayClass4_0`1.&lt;&lt;ExecuteAsync&gt;b__0&gt;d.MoveNext()&#x000D;&#x000A;--- End of
+stack trace from previous location where exception was thrown ---&#x000D;&#x000A;   at
+System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()&#x000D;&#x000A;   at
+System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#x000D;&#x000A;   at
+Microsoft.VisualStudio.Threading.AwaitExtensions.ExecuteContinuationSynchronouslyAwaiter`1.GetResult()&#x000D;&#x000A;
+  at Microsoft.VisualStudio.Threading.ReentrantSemaphore.StackSemaphore.&lt;ExecuteAsync&gt;d__4`1.MoveNext()&#x000D;&#
+x000A;--- End of stack trace from previous location where exception was thrown ---&#x000D;&#x000A;   at
+System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()&#x000D;&#x000A;   at
+System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#x000D;&#x000A;   at Mic
+rosoft.VisualStudio.Extension.Management.MessagePackCacheWriter.&lt;ReadExtensionDataAsync&gt;d__14.MoveNext()&#x000D;&
+#x000A;--- End of stack trace from previous location where exception was thrown ---&#x000D;&#x000A;   at
+System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()&#x000D;&#x000A;   at
+System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#x000D;&#x000A;   at Mic
+rosoft.VisualStudio.Extension.Management.VisualStudioExtensionCache.&lt;TryLoadCacheCoreAsync&gt;d__19.MoveNext()&#x000
+D;&#x000A;--- End of stack trace from previous location where exception was thrown ---&#x000D;&#x000A;   at
+System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()&#x000D;&#x000A;   at
+System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#x000D;&#x000A;   at Mic
+rosoft.VisualStudio.Extension.Management.ExtensionCache`1.&lt;&gt;c__DisplayClass39_0.&lt;&lt;LoadCacheAsync&gt;b__0&gt
+;d.MoveNext()&#x000D;&#x000A;---&gt; (Inner Exception #0) Nerdbank.MessagePack.MessagePackSerializationException: An
+error occurred during deserialization. ---&gt; Nerdbank.MessagePack.MessagePackSerializationException: Failed to
+deserialize &apos;Extensions&apos; property on Microsoft.VisualStudio.Extension.Management.ExtensionCacheFormat.
+---&gt; Nerdbank.MessagePack.MessagePackSerializationException: Failed to deserialize a
+&apos;Microsoft.VisualStudio.ExtensionEngine.Impl.Settings.MetadataStore.StorageModel.ExtensionFromStorageImpl&apos;
+at index 0. ---&gt; Nerdbank.MessagePack.MessagePackSerializationException: Failed to deserialize &apos;Header&apos;
+property on Microsoft.VisualStudio.ExtensionEngine.Impl.Settings.MetadataStore.StorageModel.ExtensionFromStorageImpl.
+---&gt; Nerdbank.MessagePack.MessagePackSerializationException: Failed to deserialize &apos;Locale&apos; property on
+Microsoft.VisualStudio.ExtensionEngine.Impl.Settings.MetadataStore.StorageModel.ExtensionHeaderFromStorage. ---&gt;
+Nerdbank.MessagePack.MessagePackSerializationException: Unexpected msgpack code 205 (uint 16)
+encountered.&#x000D;&#x000A;   at Nerdbank.MessagePack.MessagePackReader.ThrowInvalidCode(Byte code)&#x000D;&#x000A;
+at Nerdbank.MessagePack.MessagePackReader.ReadString()&#x000D;&#x000A;   at
+Nerdbank.MessagePack.Converters.SystemGlobalizationCultureInfoConverter.Read(MessagePackReader&amp; reader,
+SerializationContext context)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.StandardVisitor.&lt;&gt;c__DisplayClass14_3`2.&lt;VisitProperty&gt;b__6(TDeclaringType&amp;
+container, MessagePackReader&amp; reader, SerializationContext context)&#x000D;&#x000A;   --- End of inner exception
+stack trace ---&#x000D;&#x000A;   at
+Nerdbank.MessagePack.StandardVisitor.&lt;&gt;c__DisplayClass14_3`2.&lt;VisitProperty&gt;b__6(TDeclaringType&amp;
+container, MessagePackReader&amp; reader, SerializationContext context)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.Converters.ObjectArrayConverter`1.Read(MessagePackReader&amp; reader, SerializationContext
+context)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.StandardVisitor.&lt;&gt;c__DisplayClass14_3`2.&lt;VisitProperty&gt;b__6(TDeclaringType&amp;
+container, MessagePackReader&amp; reader, SerializationContext context)&#x000D;&#x000A;   --- End of inner exception
+stack trace ---&#x000D;&#x000A;   at
+Nerdbank.MessagePack.StandardVisitor.&lt;&gt;c__DisplayClass14_3`2.&lt;VisitProperty&gt;b__6(TDeclaringType&amp;
+container, MessagePackReader&amp; reader, SerializationContext context)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.Converters.ObjectArrayConverter`1.Read(MessagePackReader&amp; reader, SerializationContext
+context)&#x000D;&#x000A;   at Nerdbank.MessagePack.Converters.SpanEnumerableConverter`2.Read(MessagePackReader&amp;
+reader, SerializationContext context)&#x000D;&#x000A;   --- End of inner exception stack trace ---&#x000D;&#x000A;
+at Nerdbank.MessagePack.Converters.SpanEnumerableConverter`2.Read(MessagePackReader&amp; reader, SerializationContext
+context)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.StandardVisitor.&lt;&gt;c__DisplayClass14_3`2.&lt;VisitProperty&gt;b__6(TDeclaringType&amp;
+container, MessagePackReader&amp; reader, SerializationContext context)&#x000D;&#x000A;   --- End of inner exception
+stack trace ---&#x000D;&#x000A;   at
+Nerdbank.MessagePack.StandardVisitor.&lt;&gt;c__DisplayClass14_3`2.&lt;VisitProperty&gt;b__6(TDeclaringType&amp;
+container, MessagePackReader&amp; reader, SerializationContext context)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.Converters.ObjectArrayConverter`1.Read(MessagePackReader&amp; reader, SerializationContext
+context)&#x000D;&#x000A;   at Nerdbank.MessagePack.MessagePackSerializer.Deserialize[T](MessagePackReader&amp; reader,
+ITypeShape`1 shape, CancellationToken cancellationToken)&#x000D;&#x000A;   --- End of inner exception stack trace
+---&#x000D;&#x000A;   at Nerdbank.MessagePack.MessagePackSerializer.Deserialize[T](MessagePackReader&amp; reader,
+ITypeShape`1 shape, CancellationToken cancellationToken)&#x000D;&#x000A;   at
+Nerdbank.MessagePack.MessagePackSerializer.Deserialize[T](ReadOnlySequence`1&amp; buffer, ITypeShape`1 shape,
+CancellationToken cancellationToken)&#x000D;&#x000A;   at Microsoft.VisualStudio.Extension.Management.MessagePackCacheU
+tilities`1.Microsoft.VisualStudio.Extension.Management.IStreamDeserializer&lt;T&gt;.ReadDataFromStream(Stream
+stream)&#x000D;&#x000A;   at Microsoft.VisualStudio.Extension.Management.MessagePackCacheUtilities`1.&lt;&gt;c__Display
+Class14_0.&lt;ReadCacheAsync&gt;b__0()&#x000D;&#x000A;   at Microsoft.VisualStudio.ExtensionEngineContract.Impl.LinearR
+etryPolicy.&lt;ExecuteRetryOperationAsync&gt;d__6`1.MoveNext()&lt;---&#x000D;&#x000A; Error loading existing
+VisualStudioExtensionCache: ExtensionCache.LoadCacheAsync with AggregateException</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7936:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7937:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7938:    <record>980</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7939:    <time>2026/08/20 06:21:57.982</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7940:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7941:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7942:    <description>Loading UI
+library</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7943:
+<guid>{C5EDD1EE-C43B-4360-9CE4-6B993CA12897}</guid>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7944:    <hr>0x800a006f</hr>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7945:    <errorinfo>Resource not found:
+Menus.ctmenu
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7946:Parameter name: resourceName</errorinfo>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7947:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7948:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7949:    <record>981</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7950:    <time>2026/08/20 06:21:57.982</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7951:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7952:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7953:    <description>Error loading UI library
+for package CSharpVsInteractiveWindowPackage. HrLoadNativeUILibrary failed with 0x800a006f.</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7954:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7955:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7956:    <record>982</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7957:    <time>2026/08/20 06:21:57.982</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7958:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7959:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7960:    <description>Loading UI
+library</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7961:
+<guid>{6CF2E545-6109-4730-8883-CF43D7AEC3E1}</guid>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7962:    <hr>0x800a006f</hr>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7963:    <errorinfo>Resource not found:
+Menus.ctmenu
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7964:Parameter name: resourceName</errorinfo>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7965:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7966:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7967:    <record>983</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7968:    <time>2026/08/20 06:21:57.982</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7969:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7970:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7971:    <description>Error loading UI library
+for package (null). HrLoadNativeUILibrary failed with 0x800a006f.</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7972:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7973:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7974:    <record>984</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7975:    <time>2026/08/20 06:21:58.044</time>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7976:    <type>Information</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7977:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7978:    <description>Loading UI
+library</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7979:
+<guid>{2DC9DAA9-7F2D-11D2-9BFC-00C04F9901D1}</guid>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7980:    <path>C:\Program Files\Microsoft SQL
+Server Management Studio 22\Release\Common7\IDE*\VsLogUI.dll</path>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7981:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7982:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7983:    <record>985</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7984:    <time>2026/08/20 06:21:58.045</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7985:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7986:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7987:    <description>Failed to find CTMENU
+resource &apos;#1000&apos; in loaded UI library.</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7988:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7989:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7990:    <record>986</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7991:    <time>2026/08/20 06:21:58.060</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7992:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7993:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7994:    <description>Loading UI
+library</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7995:
+<guid>{D549BC66-C17B-4409-8729-583E60DC0BC1}</guid>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7996:    <hr>0x800a006f</hr>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7997:    <errorinfo>Resource not found:
+Menus.ctmenu
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7998:Parameter name: resourceName</errorinfo>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:7999:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8000:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8001:    <record>987</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8002:    <time>2026/08/20 06:21:58.060</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8003:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8004:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8005:    <description>Error loading UI library
+for package (null). HrLoadNativeUILibrary failed with 0x800a006f.</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8006:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8007:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8008:    <record>988</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8009:    <time>2026/08/20 06:21:58.060</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8010:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8011:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8012:    <description>Loading UI
+library</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8013:
+<guid>{BEB01DDF-9D2B-435B-A9E7-76557E2B6B52}</guid>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8014:    <hr>0x800a006f</hr>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8015:    <errorinfo>Resource not found:
+Menus.ctmenu
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8016:Parameter name: resourceName</errorinfo>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8017:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8018:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8019:    <record>989</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8020:    <time>2026/08/20 06:21:58.060</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8021:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8022:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8023:    <description>Error loading UI library
+for package (null). HrLoadNativeUILibrary failed with 0x800a006f.</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8024:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8025:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8026:    <record>990</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8027:    <time>2026/08/20 06:21:58.208</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8028:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8029:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8030:    <description>Loading UI
+library</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8031:
+<guid>{52F5727D-FE3B-4812-80C4-6A8EEBEAB94F}</guid>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8032:    <hr>0x800a006f</hr>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8033:    <errorinfo>Resource not found:
+Menus.ctmenu
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8034:Parameter name: resourceName</errorinfo>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8035:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8036:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8037:    <record>991</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8038:    <time>2026/08/20 06:21:58.208</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8039:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8040:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8041:    <description>Error loading UI library
+for package (null). HrLoadNativeUILibrary failed with 0x800a006f.</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8042:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8043:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8044:    <record>992</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8045:    <time>2026/08/20 06:21:58.209</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8046:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8047:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8048:    <description>Loading UI
+library</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8049:
+<guid>{D277DC8A-AA1E-4303-8C03-1C58DB18E98B}</guid>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8050:    <hr>0x800a006f</hr>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8051:    <errorinfo>Resource not found:
+Menus.ctmenu
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8052:Parameter name: resourceName</errorinfo>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8053:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8054:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8055:    <record>993</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8056:    <time>2026/08/20 06:21:58.209</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8057:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8058:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8059:    <description>Error loading UI library
+for package (null). HrLoadNativeUILibrary failed with 0x800a006f.</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8060:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8061:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8062:    <record>994</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8063:    <time>2026/08/20 06:21:58.302</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8064:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8065:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8066:    <description>Loading UI
+library</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8067:
+<guid>{DC9FC401-8FD3-41BB-A2AC-4737522E9BD0}</guid>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8068:    <hr>0x800a006f</hr>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8069:    <errorinfo>Resource not found:
+Menus.ctmenu
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8070:Parameter name: resourceName</errorinfo>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8071:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8072:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8073:    <record>995</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8074:    <time>2026/08/20 06:21:58.302</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8075:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8076:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8077:    <description>Error loading UI library
+for package (null). HrLoadNativeUILibrary failed with 0x800a006f.</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8078:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8079:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8080:    <record>996</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8081:    <time>2026/08/20 06:21:58.562</time>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8082:    <type>Information</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8083:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8084:    <description>Begin package load
+[CommonIDEPackage]</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8085:
+<guid>{6E87CFAD-6C05-4ADF-9CD7-3B7943875B7C}</guid>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8086:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8087:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8364:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8365:    <record>1035</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8366:    <time>2026/08/20 06:21:59.788</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8367:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8368:    <source>Unified Settings</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8369:
+<description>[executionSettings.sqlServer.general.setNumericAbort] Could not resolve string resource:
+@name.setNumericAbort;{2586ed8c-a501-4d22-b10c-4cf5c123ef0b}</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8370:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8371:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8372:    <record>1036</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8373:    <time>2026/08/20 06:21:59.796</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8374:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8375:    <source>Unified Settings</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8376:
+<description>[executionSettings.sqlServer.general.setFmtOnly] Could not resolve string resource:
+@name.setFmtOnly;{2586ed8c-a501-4d22-b10c-4cf5c123ef0b}</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8377:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8378:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8379:    <record>1037</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8380:    <time>2026/08/20 06:21:59.800</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8381:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8382:    <source>Unified Settings</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8383:
+<description>[executionSettings.sqlServer.general.setForceplan] Could not resolve string resource:
+@name.setForceplan;{2586ed8c-a501-4d22-b10c-4cf5c123ef0b}</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8384:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8385:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8386:    <record>1038</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8387:    <time>2026/08/20 06:21:59.805</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8388:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8389:    <source>Unified Settings</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8390:
+<description>[executionSettings.sqlServer.general.setStatisticsProfile] Could not resolve string resource:
+@name.setStatisticsProfile;{2586ed8c-a501-4d22-b10c-4cf5c123ef0b}</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8391:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8392:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8393:    <record>1039</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8394:    <time>2026/08/20 06:22:00.120</time>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8395:    <type>Information</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8396:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8397:    <description>Begin package load
+[WindowManagementPackage]</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8398:
+<guid>{5E56B3DB-7964-4588-8D49-D3523AB7BDB9}</guid>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8399:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8400:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8518:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8519:    <record>1055</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8520:    <time>2026/08/20 06:22:12.343</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8521:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8522:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8523:    <description>Template parsing failed to
+load localized string resource #1007 from package {BEB01DDF-9D2B-435B-A9E7-76557E2B6B52}</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8524:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8525:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8526:    <record>1056</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8527:    <time>2026/08/20 06:22:12.532</time>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8528:    <type>Information</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8529:    <source>Project Template
+Metadata</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8530:    <description>Overriding project
+template: microsoft.CSharp.NETCore.ConsoleApplication, order: 0.1</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8531:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8532:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:8533:    <record>1057</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12099:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12100:    <record>1565</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12101:    <time>2026/08/20 06:22:16.982</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12102:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12103:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12104:    <description>QueryService failed to
+load fonts &amp; colors category {90A03679-39CF-450F-A9E9-91DAADF17F38}.  Is the service registered
+correctly?</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12105:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12106:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12107:    <record>1566</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12108:    <time>2026/08/20 06:22:16.992</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12109:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12110:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12111:    <description>Failed to refresh cache
+for cacheable fonts &amp; colors category {90A03679-39CF-450F-A9E9-91DAADF17F38}</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12112:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12113:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12114:    <record>1567</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12115:    <time>2026/08/20 06:22:17.025</time>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12116:    <type>Information</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12117:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12118:    <description>Begin package load [Visual
+Studio Debugger]</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12119:
+<guid>{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}</guid>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12120:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12121:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12344:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12345:    <record>1596</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12346:    <time>2026/08/20 06:22:18.643</time>
+> AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12347:    <type>Error</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12348:
+<source>GlobalBrokeredServiceContainer</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12349:
+<description>Microsoft.ServiceHub.Framework.ServiceActivationFailedException: Activating the
+&quot;Microsoft.VisualStudio.TraceHubCommand (1.0)&quot; service failed. ---&gt;
+System.Runtime.InteropServices.COMException: Error HRESULT E_FAIL has been returned from a call to a COM
+component.&#x000D;&#x000A;   at Microsoft.VisualStudio.Shell.Interop.IVsShell7.LoadPackageAsync(Guid&amp;
+guidPackage)&#x000D;&#x000A;   at Microsoft.VisualStudio.Services.VSGlobalBrokeredServiceContainer.PackageServiceRegist
+ration.&lt;LoadProfferingPackageAsync&gt;d__4.MoveNext()&#x000D;&#x000A;--- End of stack trace from previous location
+where exception was thrown ---&#x000D;&#x000A;   at
+System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()&#x000D;&#x000A;   at
+System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#x000D;&#x000A;   at Mic
+rosoft.VisualStudio.Utilities.ServiceBroker.GlobalBrokeredServiceContainer.View.&lt;LoadProfferingPackageAsync&gt;d__25
+.MoveNext()&#x000D;&#x000A;--- End of stack trace from previous location where exception was thrown
+---&#x000D;&#x000A;   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()&#x000D;&#x000A;   at
+System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#x000D;&#x000A;   at Mic
+rosoft.VisualStudio.Utilities.ServiceBroker.GlobalBrokeredServiceContainer.View.&lt;TryGetProfferingSourceAsync&gt;d__2
+4.MoveNext()&#x000D;&#x000A;--- End of stack trace from previous location where exception was thrown
+---&#x000D;&#x000A;   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()&#x000D;&#x000A;   at
+System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)&#x000D;&#x000A;   at Mic
+rosoft.VisualStudio.Utilities.ServiceBroker.GlobalBrokeredServiceContainer.View.&lt;GetProxyAsync&gt;d__19`1.MoveNext()
+&#x000D;&#x000A;   --- End of inner exception stack trace ---</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12350:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12351:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12352:    <record>1597</record>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12353:    <time>2026/08/20 06:22:20.715</time>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12354:    <type>Information</type>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12355:    <source>VisualStudio</source>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12356:    <description>AppId stopped registry
+detouring</description>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12357:  </entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12358:  <entry>
+  AppData\Roaming\Microsoft\SSMS\22.0_999a5240\ActivityLog.Setup.xml:12359:    <record>1598</record>
+
